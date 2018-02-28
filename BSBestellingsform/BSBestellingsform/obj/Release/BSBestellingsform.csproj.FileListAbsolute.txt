@@ -1,0 +1,15 @@
+C:\Users\ll16081\Downloads\BSBestellingsform\BSBestellingsform\BSBestellingsform\bin\Release\BSBestellingsform.exe.config
+C:\Users\ll16081\Downloads\BSBestellingsform\BSBestellingsform\BSBestellingsform\bin\Release\BSBestellingsform.exe
+C:\Users\ll16081\Downloads\BSBestellingsform\BSBestellingsform\BSBestellingsform\bin\Release\BSBestellingsform.pdb
+C:\Users\ll16081\Downloads\BSBestellingsform\BSBestellingsform\BSBestellingsform\obj\Release\mainwindow.g.cs
+C:\Users\ll16081\Downloads\BSBestellingsform\BSBestellingsform\BSBestellingsform\obj\Release\Overzicht.g.cs
+C:\Users\ll16081\Downloads\BSBestellingsform\BSBestellingsform\BSBestellingsform\obj\Release\App.g.cs
+C:\Users\ll16081\Downloads\BSBestellingsform\BSBestellingsform\BSBestellingsform\obj\Release\BSBestellingsform_MarkupCompile.cache
+C:\Users\ll16081\Downloads\BSBestellingsform\BSBestellingsform\BSBestellingsform\obj\Release\BSBestellingsform_MarkupCompile.lref
+C:\Users\ll16081\Downloads\BSBestellingsform\BSBestellingsform\BSBestellingsform\obj\Release\mainwindow.baml
+C:\Users\ll16081\Downloads\BSBestellingsform\BSBestellingsform\BSBestellingsform\obj\Release\Overzicht.baml
+C:\Users\ll16081\Downloads\BSBestellingsform\BSBestellingsform\BSBestellingsform\obj\Release\BSBestellingsform.g.resources
+C:\Users\ll16081\Downloads\BSBestellingsform\BSBestellingsform\BSBestellingsform\obj\Release\BSBestellingsform.Properties.Resources.resources
+C:\Users\ll16081\Downloads\BSBestellingsform\BSBestellingsform\BSBestellingsform\obj\Release\BSBestellingsform.csproj.GenerateResource.Cache
+C:\Users\ll16081\Downloads\BSBestellingsform\BSBestellingsform\BSBestellingsform\obj\Release\BSBestellingsform.exe
+C:\Users\ll16081\Downloads\BSBestellingsform\BSBestellingsform\BSBestellingsform\obj\Release\BSBestellingsform.pdb

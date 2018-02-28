@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BSBestellingsform.exe" version="1.0.0.0" publicKeyToken="c426edb966af6734" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="buurtslagersLogo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BSBestellingsform" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BSBestellingsform.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BSBestellingsform.exe" size="1407392">
+      <assemblyIdentity name="BSBestellingsform" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sufXR7Y8QTpkI6vM8unUt0WF+HP9P1sAbWv7Yn4Xhz0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BSBestellingsform.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="buurtslagersLogo.ico" size="697253">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6OMsBxDwrQuB7bc3TYorIrEmhRfeVOKTRYpsc/43Ors=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SV\ll16081" issuerKeyHash="a3670bf23a38d0a2f21482e5379bb120f23c18e7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZK7j649MUjTeNd9HTn3qlPvGJE+cQLplxE51HLPUxBQ=</DigestValue></Reference></SignedInfo><SignatureValue>IjHNTr+HK5SYvks3ITtgGaXUE47d3XzhG5JPLWoD85QTzHj8kJADtoQ0DGiI4gjk+bzhQeuE0kmqD1sgriTbzIqwEP5M6qwU4XI0PpRbM9g4uGihc9TR+Q2hpBjU0sNV80Kuni9R5g/lEm2USDozNGGLazA4hGtHCOUu38xZphA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3UkmGlGNZ0VMgajYM/javSVj4Ws+Z3dWwDKW/rULisuky3F/uPVRKlNNLt/O9DKcJ24KjmvQF1SYWw9NuAAbuypGpJo+UD7DuNu2RFpBzKlfvol9DTXTRKkO2Nge43Q0Er8TELX1/1g6JgyK+B0Kr12ITD2cZ69JaJqNaeRTO8E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="14c4d4b31c754ec465ba409c4f24c6fb94ea7d4e47df35de34524c8febe3ae64" Description="" Url=""><as:assemblyIdentity name="BSBestellingsform.exe" version="1.0.0.0" publicKeyToken="c426edb966af6734" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SV\ll16081</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9Eg9Uv4uXfkuPvJE5YvVGgOsI0yo5xTWtHrieuPDxrQ=</DigestValue></Reference></SignedInfo><SignatureValue>SxoUjJPUxhlfX/QFiQljmwRpS2ZQ1Jvgfkk0skJy1dvkPDFh9OdwZGSXngj3KNI7v4wQnjAjXIMl75s+Gdb0vFS2MgkaRiJym/Ix4mj5IicEEAg1GDh3TDyLepQdLg9DoEv+ud5MVApFTfSNSxl1QVZawtmqk+WURqhnhFSzsbE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3UkmGlGNZ0VMgajYM/javSVj4Ws+Z3dWwDKW/rULisuky3F/uPVRKlNNLt/O9DKcJ24KjmvQF1SYWw9NuAAbuypGpJo+UD7DuNu2RFpBzKlfvol9DTXTRKkO2Nge43Q0Er8TELX1/1g6JgyK+B0Kr12ITD2cZ69JaJqNaeRTO8E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQUGhiF3VnEJJDd10uQs5eLDANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAUwBWAFwAbABsADEANgAwADgAMTAeFw0xODAxMjIxMDA3MjJaFw0xOTAxMjIxNjA3MjJaMB8xHTAbBgNVBAMeFABTAFYAXABsAGwAMQA2ADAAOAAxMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdSSYaUY1nRUyBqNgz+Nq9JWPhaz5nd1bAMpb+tQuKy6TLcX+49VEqU00u3870MpwnbgqOa9AXVJhbD024ABu7Kkakmj5QPsO427ZEWkHMqV++iX0NNdNEqQ7Y2B7jdDQSvxMQtfX/WDomDIr4HQqvXYhMPZxnr0lomo1p5FM7wQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACESoHWZOCRQbfV4KST6/F67ItiriURC3vm2wWUlcRi/dqRa3AvQ34nPm6uQ/IjSbR5Shi8U3oPJ+W5ilga81F+8fNiU3pEsLh1njJ1wxGRAfwFxyqCvHWCljDVXKUp+1NRGYDW/Os5laI/8D+FQq1N8claAYmOb32OZgo3JIXv6</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
